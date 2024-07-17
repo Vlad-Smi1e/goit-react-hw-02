@@ -1,4 +1,15 @@
-.noFeedback {
-  font-weight: 500;
-  padding-left: 20px;
+.box {
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #faebd7;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  font-size: 32px;
 }

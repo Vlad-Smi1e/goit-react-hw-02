@@ -1,21 +1,19 @@
-h1,
-p {
-  margin: 0;
-  padding: 0;
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #ffc67b;
+  padding: 12px;
+  border-radius: 12px;
 }
 
-.descriptionContainer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  color: rgb(59, 52, 52);
-  padding-left: 16px;
+.title {
+  font-size: 48px;
+  color: #111111;
 }
-.descriptionHeader {
-  margin-bottom: 24px;
-}
-.description {
-  margin-bottom: 24px;
-  font-weight: 500;
+
+.descr {
+  font-size: 18px;
+  color: #111111;
+  margin-bottom: 20px;
 }
